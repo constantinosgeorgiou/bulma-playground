@@ -6,13 +6,14 @@
 </head>
 
 <body>
-    <header>header</header>
-    <nav>Navigation</nav>
-    <main class="container has-background-danger">
+    <%- include("partials/navigation") %>
+    <main class="container">
         <h1 class="is-size-1">Bulma playground</h1>
     </main>
     <aside>put github here</aside>
-    <footer>Footer</footer>
+    <%- include("partials/footer") %>
+
+    <script src="/scripts/bulma.js"></script>
 </body>
 
 </html>
