@@ -1,0 +1,38 @@
+{
+  "name": "bulma-playground",
+  "version": "1.0.0",
+  "description": "Various pages made using bulma",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/constantinosgeorgiou/bulma-playground.git"
+  },
+  "keywords": [
+    "bulma",
+    "nodejs",
+    "node",
+    "express",
+    "expressjs",
+    "html5",
+    "css"
+  ],
+  "author": "Constantinos Georgiou",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/constantinosgeorgiou/bulma-playground/issues"
+  },
+  "homepage": "https://github.com/constantinosgeorgiou/bulma-playground#readme",
+  "dependencies": {
+    "bulma": "^0.9.1",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
